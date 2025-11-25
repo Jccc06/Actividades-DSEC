@@ -99,13 +99,18 @@ function maquetarPelis(peliculas){
 
 window.onload = () => {
     boton = document.getElementById("botonCargar");
+    contador = 2;
 
     maquetarPelis(peliculas);
-   
 
     boton.addEventListener("click",() => {
-           maquetarPelis(peliculas2);
+        fetch("https://www.omdbapi.com/?=star&apikey=9de3cf92&page="+contador).then(response => response.json()).then(data => {
+            maquetarPelis(data.Search);
+            contador++;
+         })
     })
+
+   
 
 
 }
