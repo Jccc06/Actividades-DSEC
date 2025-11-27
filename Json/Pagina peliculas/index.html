@@ -5,35 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="index.js"></script>
-    <style>
-       
-        body{
-            background-color: black;
-        }
-        #contenedor{
-            border: 0cap;
-        }
-        div{
-            border: 1px solid white;
-            display: flex;
-            color: white;
-            flex-direction: column;
-            height: 50%;
-            width: 50%;
-        }
-        div h2{
-            font-size: 30px;
-        }
-        button{
-            height: 40%;
-            width: 10%;
-        }
-    </style>
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <div id="contenedor">
+   
 
+    <div id="buscador" style="visibility: hidden;">
+        <input type="text" placeholder="Escribe una pelicula" id="pelicula">
+        <button id="botonbuscar">Buscar</button>
+        <button id="Volver">Volver</button>
+    <div id="contenedor">
+    
     </div>
-    <button id="botonCargar">Cargar más</button>
+    </div>
+
+    <div id="landing">
+        <h3>Esta es la landing page</h3>
+        <button id="botonLanding">Ir al busador</button>
+    </div>
 </body>
 </html>

@@ -1,87 +1,10 @@
-peliculas =
-    {
-  "Search": [
-    {
-      "Title": "Star Wars: Episode IV - A New Hope",
-      "Year": "1977",
-      "imdbID": "tt0076759",
-      "Type": "movie",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BOGUwMDk0Y2MtNjBlNi00NmRiLTk2MWYtMGMyMDlhYmI4ZDBjXkEyXkFqcGc@._V1_SX300.jpg"
-    },
-    {
-      "Title": "Star Wars: Episode V - The Empire Strikes Back",
-      "Year": "1980",
-      "imdbID": "tt0080684",
-      "Type": "movie",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BMTkxNGFlNDktZmJkNC00MDdhLTg0MTEtZjZiYWI3MGE5NWIwXkEyXkFqcGc@._V1_SX300.jpg"
-    },
-    {
-      "Title": "Star Wars: Episode VI - Return of the Jedi",
-      "Year": "1983",
-      "imdbID": "tt0086190",
-      "Type": "movie",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BNWEwOTI0MmUtMGNmNy00ODViLTlkZDQtZTg1YmQ3MDgyNTUzXkEyXkFqcGc@._V1_SX300.jpg"
-    },
-    {
-      "Title": "Star Wars: Episode VII - The Force Awakens",
-      "Year": "2015",
-      "imdbID": "tt2488496",
-      "Type": "movie",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BOTAzODEzNDAzMl5BMl5BanBnXkFtZTgwMDU1MTgzNzE@._V1_SX300.jpg"
-    },
-    {
-      "Title": "Star Wars: Episode I - The Phantom Menace",
-      "Year": "1999",
-      "imdbID": "tt0120915",
-      "Type": "movie",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BODVhNGIxOGItYWNlMi00YTA0LWI3NTctZmQxZGUwZDEyZWI4XkEyXkFqcGc@._V1_SX300.jpg"
-    },
-    {
-      "Title": "Star Wars: Episode III - Revenge of the Sith",
-      "Year": "2005",
-      "imdbID": "tt0121766",
-      "Type": "movie",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BNTc4MTc3NTQ5OF5BMl5BanBnXkFtZTcwOTg0NjI4NA@@._V1_SX300.jpg"
-    },
-    {
-      "Title": "Star Wars: Episode II - Attack of the Clones",
-      "Year": "2002",
-      "imdbID": "tt0121765",
-      "Type": "movie",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BNTgxMjY2YzUtZmVmNC00YjAwLWJlODMtNDBhNzllNzIzMjgxXkEyXkFqcGc@._V1_SX300.jpg"
-    },
-    {
-      "Title": "Rogue One: A Star Wars Story",
-      "Year": "2016",
-      "imdbID": "tt3748528",
-      "Type": "movie",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BMjEwMzMxODIzOV5BMl5BanBnXkFtZTgwNzg3OTAzMDI@._V1_SX300.jpg"
-    },
-    {
-      "Title": "Star Wars: Episode VIII - The Last Jedi",
-      "Year": "2017",
-      "imdbID": "tt2527336",
-      "Type": "movie",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BMjQ1MzcxNjg4N15BMl5BanBnXkFtZTgwNzgwMjY4MzI@._V1_SX300.jpg"
-    },
-    {
-      "Title": "Star Trek",
-      "Year": "2009",
-      "imdbID": "tt0796366",
-      "Type": "movie",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BMjE5NDQ5OTE4Ml5BMl5BanBnXkFtZTcwOTE3NDIzMw@@._V1_SX300.jpg"
-    }
-  ],
-  "totalResults": "4947",
-  "Response": "True"
-}
-
-peliculas2 = {"Search":[{"Title":"Star Wars: Episode IX - The Rise of Skywalker","Year":"2019","imdbID":"tt2527338","Type":"movie","Poster":"https://m.media-amazon.com/images/M/MV5BODg5ZTNmMTUtYThlNy00NjljLWE0MGUtYmQ1NDg4NWU5MjQ1XkEyXkFqcGc@._V1_SX300.jpg"},{"Title":"Star Trek Into Darkness","Year":"2013","imdbID":"tt1408101","Type":"movie","Poster":"https://m.media-amazon.com/images/M/MV5BMTk2NzczOTgxNF5BMl5BanBnXkFtZTcwODQ5ODczOQ@@._V1_SX300.jpg"},{"Title":"A Star Is Born","Year":"2018","imdbID":"tt1517451","Type":"movie","Poster":"https://m.media-amazon.com/images/M/MV5BNGUxZTc0NTAtNzQwMy00MmM2LTgzMGYtZWIyY2E1MGFjYmM5XkEyXkFqcGc@._V1_SX300.jpg"},{"Title":"Solo: A Star Wars Story","Year":"2018","imdbID":"tt3778644","Type":"movie","Poster":"https://m.media-amazon.com/images/M/MV5BOTM2NTI3NTc3Nl5BMl5BanBnXkFtZTgwNzM1OTQyNTM@._V1_SX300.jpg"},{"Title":"Star Trek Beyond","Year":"2016","imdbID":"tt2660888","Type":"movie","Poster":"https://m.media-amazon.com/images/M/MV5BN2FhNDI1YTYtNWI0OC00ZjYxLWJlYWEtN2ZiZjRmZDY1MWJjXkEyXkFqcGc@._V1_SX300.jpg"},{"Title":"Star Trek: The Next Generation","Year":"1987–1994","imdbID":"tt0092455","Type":"series","Poster":"https://m.media-amazon.com/images/M/MV5BMmNiNTQ2YzYtODBjYy00ZWMwLTlmNWMtYWE1NTQ2ZTYyZmMwXkEyXkFqcGc@._V1_SX300.jpg"},{"Title":"Star Trek: Discovery","Year":"2017–2024","imdbID":"tt5171438","Type":"series","Poster":"https://m.media-amazon.com/images/M/MV5BOTZkZTc1ZmYtYTA3Mi00MzZhLWFmZTItZTM2NThjYWJlZGU4XkEyXkFqcGc@._V1_SX300.jpg"},{"Title":"Star Wars: The Clone Wars","Year":"2008–2020","imdbID":"tt0458290","Type":"series","Poster":"https://m.media-amazon.com/images/M/MV5BOTdiODQ1MDYtZjM5My00MmQ5LTk1ZWUtZWIwYjBhZGMxZDAyXkEyXkFqcGc@._V1_SX300.jpg"},{"Title":"Star Trek: First Contact","Year":"1996","imdbID":"tt0117731","Type":"movie","Poster":"https://m.media-amazon.com/images/M/MV5BZjc0OWE1NDMtNjRmMi00ZDc2LWI2ZmQtNzEwNWU4Nzg4NDA5XkEyXkFqcGc@._V1_SX300.jpg"},{"Title":"Star Trek II: The Wrath of Khan","Year":"1982","imdbID":"tt0084726","Type":"movie","Poster":"https://m.media-amazon.com/images/M/MV5BOTFkZDY5NWQtMjY4Yy00OThiLTk3YjQtMDdhYTllMTI4MTdiXkEyXkFqcGc@._V1_SX300.jpg"}],"totalResults":"4947","Response":"True"};
-
 function maquetarPelis(peliculas){
-        for(peli of peliculas.Search){
+        for(let peli of peliculas){
             contenedor = document.getElementById("contenedor");
             miDiv = document.createElement("div");       
+            miDiv.addEventListener("click", () => 
+                LanzaPeticionDetalle(peli.imdbID)
+            );
             texto = document.createElement("h2");
             img = document.createElement("img");
             
@@ -96,21 +19,98 @@ function maquetarPelis(peliculas){
     }
 }
 
+function LanzaPeticionDetalle(id){
+    fetch("https://www.omdbapi.com/?i=" + id + "&apikey=5ddaee62").then(response => response.json()).then(data => {
+        contenedor = document.getElementById("contenedor");
+        miDiv2 = document.createElement("div");
+        img = document.createElement("img");
+        texto = document.createElement("h2");
+        released = document.createElement("h3");
+        plot = document.createElement("p");
+        boton = document.createElement("button");
+
+
+        boton.innerHTML = "Cerrar";
+        plot.innerHTML = data.Plot;
+        released.innerHTML = "Salida: " + data.Released;
+        texto.innerHTML = data.Title;
+        img.src = data.Poster;
+        miDiv2.id = "detalle";
+
+
+       
+        miDiv2.appendChild(img);
+        miDiv2.appendChild(texto);
+        miDiv2.appendChild(released);
+        miDiv2.appendChild(plot);
+        miDiv2.appendChild(boton);
+
+        boton.addEventListener("click", () => {
+            miDiv2.innerHTML = " ";
+            miDiv2.style.visibility = "hidden";
+        })
+
+        contenedor.appendChild(miDiv2);
+
+    })
+}
+
+function LanzaPeticion(url){
+    if(!peticionEnCurso){
+        peticionEnCurso = true;
+        fetch(url).then(response => response.json()).then(data => {
+            maquetarPelis(data.Search);
+            //contador++;
+            peticionEnCurso = false;
+        })
+    }
+}
+
 
 window.onload = () => {
+    peticionEnCurso = false;
     boton = document.getElementById("botonCargar");
-    contador = 2;
+    pelicula = document.getElementById("pelicula");
+    buscar = document.getElementById("botonbuscar");
+    landing = document.getElementById("botonLanding");
+    buscador = document.getElementById("buscador");
+    inicio = document .getElementById("landing");
+    var contador = 2;
 
-    maquetarPelis(peliculas);
+    landing.addEventListener("click",() => {
+        buscador.style.visibility = "visible";
+        inicio.style.visibility = "hidden";
 
-    boton.addEventListener("click",() => {
-        fetch("https://www.omdbapi.com/?=star&apikey=9de3cf92&page="+contador).then(response => response.json()).then(data => {
-            maquetarPelis(data.Search);
-            contador++;
-         })
     })
 
-   
+    buscar.addEventListener("click", ()  => {
+        contenedor.innerHTML = " ";
+        contador = 2;
+         LanzaPeticion("https://www.omdbapi.com/?s=" + pelicula.value +"&apikey=5ddaee62&page=1");
+            boton.style.visibility = "visible";
+           
+    })
+
+   pelicula.addEventListener("keyup", (e) => {
+    peticionEnCurso = false;
+        if(pelicula.value.length >= 3){
+        contenedor.innerHTML = " ";
+        contador = 2;
+        LanzaPeticion("https://www.omdbapi.com/?s=" + pelicula.value +"&apikey=5ddaee62&page=1");
+        }
+   })
 
 
 }
+
+var contador = 2;
+
+window.onscroll = () => 
+{
+   let cercafinal = (window.innerHeight + window.scrollY >= document.body.offsetHeight - 200);
+   if(cercafinal){
+      LanzaPeticion("https://www.omdbapi.com/?s=" + pelicula.value +"&apikey=5ddaee62&page="+contador);
+      contador++;
+   }
+}
+
