@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f4f4f4;
+}
+
+#palabra {
+    font-size: 32px;
+    margin: 20px 0;
+}
+
+#incorrecto {
+    color: red;
+    margin-bottom: 15px;
+}
+
+/* Contenedor de letras */
+.letras {
+    margin-top: 20px;
+}
+
+/* Botones de letras */
+button {
+    padding: 8px 14px;
+    margin: 3px;
+    font-size: 18px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background: #ffffff;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ffd966;
+}

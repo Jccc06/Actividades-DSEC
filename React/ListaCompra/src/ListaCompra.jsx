@@ -3,25 +3,11 @@ import Item from './Item.jsx';
 import Pie from './Pie.jsx';
 
 export default function ListaCompra(){
-    let datosInicialesPrueba = {
-        
-        "items":[
-
-        {
-            "nombre":"arroz",
-            "cantidad":"3"
-        },
-        {
-            "nombre":"pan",
-            "cantidad":"2"
-        }
-
-        ]
-    }
+    let datosInicialesPrueba = ["arroz","pan"]
 
 
 
-    const [listaCompra,setListaCompra] = useState(datosInicialesPrueba.items);
+    const [listaCompra,setListaCompra] = useState(datosInicialesPrueba);
     const [contenido,setContenido] = useState("");
 
     function pulsoBoton(){
@@ -30,13 +16,13 @@ export default function ListaCompra(){
     }
 
     function actualizarElemento(nuevoContenido,id){
-        listaCompra[id].nombre = nuevoContenido;
+        listaCompra[id] = nuevoContenido;
         setListaCompra([...listaCompra]);
     }
 
     function eliminarElemento(indice){
-        const nuevoArray = [...listaCompra] 
-        elemento = listaCompra.splice(indice,1);
+        listaCompra.splice(indice, 1); 
+        setListaCompra([...listaCompra]); 
     }
 
     function borrarLista(){
@@ -44,8 +30,7 @@ export default function ListaCompra(){
     }
 
     let maqueta = listaCompra.map((item,indice)=> <Item key={indice}
-            nombre={item.nombre}
-            cantidad={item.cantidad}
+            nombre={item}
             id={indice}
             onNuevoTexto={actualizarElemento}
             onDelete={eliminarElemento}></Item>) 

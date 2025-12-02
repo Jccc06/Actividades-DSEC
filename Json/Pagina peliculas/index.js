@@ -7,7 +7,7 @@ function maquetarPelis(peliculas){
             );
             texto = document.createElement("h2");
             img = document.createElement("img");
-            
+            img.onerror = (e) => e.target.src = "/img/errorimagen.png";
 
             img.src = peli.Poster; 
             texto.textContent = peli.Title;
@@ -69,12 +69,14 @@ function LanzaPeticion(url){
 
 window.onload = () => {
     peticionEnCurso = false;
-    boton = document.getElementById("botonCargar");
     pelicula = document.getElementById("pelicula");
     buscar = document.getElementById("botonbuscar");
     landing = document.getElementById("botonLanding");
     buscador = document.getElementById("buscador");
-    inicio = document .getElementById("landing");
+    inicio = document.getElementById("landing");
+    volver = document.getElementById("Volver");
+    año = document.getElementById("Año");
+    tipo = document.getElementById("opcion");
     var contador = 2;
 
     landing.addEventListener("click",() => {
@@ -83,11 +85,31 @@ window.onload = () => {
 
     })
 
+    volver.addEventListener("click",() => {
+        buscador.style.visibility = "hidden";
+        inicio.style.visibility = "visible";
+
+    })
+
     buscar.addEventListener("click", ()  => {
         contenedor.innerHTML = " ";
         contador = 2;
+        if(!año.value){
          LanzaPeticion("https://www.omdbapi.com/?s=" + pelicula.value +"&apikey=5ddaee62&page=1");
-            boton.style.visibility = "visible";
+        }
+        else{
+         LanzaPeticion("https://www.omdbapi.com/?s=" + pelicula.value + "&y=" + año.value +"&apikey=5ddaee62&page=1");   
+        }
+
+        if(!tipo){
+            LanzaPeticion("https://www.omdbapi.com/?s=" + pelicula.value +"&apikey=5ddaee62&page=1");
+        }
+        else if(!año.value){
+            LanzaPeticion("https://www.omdbapi.com/?s=" + pelicula.value + "&type=" + tipo.value +"&apikey=5ddaee62&page=1");   
+        }
+        else{
+            LanzaPeticion("https://www.omdbapi.com/?s=" + pelicula.value + "&y=" + año.value + "&type=" + tipo.value +"&apikey=5ddaee62&page=1");   
+        }
            
     })
 
